@@ -19,13 +19,10 @@
 Открой нужный вариант и нажми **Copy** в правом верхнем углу его кода.
 
 <details>
-<summary><strong>📄 Один CSV — показать код</strong></summary>
+<summary><strong>📄 У меня подборки без миксов языковых пар внутри</strong></summary>
 
 ```javascript
 /**
- * Yandex Translate Collections Saver — один CSV
- * Сохраняет одну или все подборки в один CSV.
- *
  * Откройте https://translate.yandex.ru/collections
  * F12 → Console → вставьте этот код → Enter.
  * Никаких библиотек и расширений не требуется.
@@ -249,7 +246,7 @@
 </details>
 
 <details>
-<summary><strong>📂 Отдельные CSV по языкам — показать код</strong></summary>
+<summary><strong>📂 У меня в подборке намешаны языки, хочу разделить на отдельные файлы каждую языковую пару</strong></summary>
 
 ```javascript
 /**
@@ -587,4 +584,4 @@
 
 Оба скрипта работают прямо во вкладке браузера: ничего устанавливать не нужно. После экспорта проверь число сохранённых записей в консоли — если оно меньше числа в Яндексе, выгрузка могла быть неполной.
 
-Если удобнее, код есть и отдельными файлами: [`saver-one-csv.js`](saver-one-csv.js) · [`saver-by-language.js`](saver-by-language.js).
+Если удобнее, код есть и отдельными файлами: [`saver-one-csv.js`](saver.js) · [`saver-by-language.js`](saver-sep-language.js).
